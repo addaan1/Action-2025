@@ -1,0 +1,75 @@
+# ========================================
+# Python
+# ========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# ========================================
+# Dataset Images (terlalu besar untuk GitHub)
+# ========================================
+train/train/
+train/train_cropped/
+test/
+
+# ========================================
+# Model checkpoints (bisa sangat besar)
+# ========================================
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# ========================================
+# Submission files (kecuali yang final)
+# ========================================
+submission.csv
+submission 2.csv
+submission_clip.csv
+submission_convnext_base.csv
+submission_convnext_base2.csv
+submission_convnext_base3.csv
+submission_convnext_base4.csv
+submission_convnext_base5.csv
+submission_convnext_large.csv
+submission_convnext_small.csv
+submission_convnext_tiny.csv
+submission_convnextv2_optimized.csv
+submission_efficientnet_b0.csv
+submission_efficientnet_b02.csv
+submission_efficientnet_b2.csv
+submission_ensemble.csv
+submission_ensemble2.csv
+submission_ensemble3.csv
+submission_ensemble4.csv
+submission_ensemble*.csv
+!submission_ensemble_final.csv
+submission_mobilenetv3_large_100.csv
+submission_resnet18.csv
+submission_swin_tiny_patch4_window7_224.csv
+
+# ========================================
+# Jupyter Notebook checkpoints
+# ========================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ========================================
+# IDE / OS
+# ========================================
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# ========================================
+# Virtual Environments
+# ========================================
+venv/
+env/
+.env
